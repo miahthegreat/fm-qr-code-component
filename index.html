@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Frontend Mentor | QR code component</title>
+  </head>
+  <body
+    class="grid justify-center content-center items-center font-outfit min-h-screen bg-[hsl(212,45%,89%)]"
+  >
+    <div class="grid gap-4 bg-white max-w-xs shadow-md rounded-xl p-4">
+      <img
+        class="mx-auto md:w-60 aspect-square rounded-xl"
+        src="images/image-qr-code.png"
+        alt="qr-logo"
+      />
+      <div class="grid gap-4 max-w-[230px] mx-auto">
+        <h1 class="text-center font-bold text-xl">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="text-[hsl(220,15%,55%)] text-center text-sm pb-4">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 text-[11px] text-center absolute bottom-0 left-1/2 -translate-x-1/2"
+    >
+      <div>
+        Challenge by
+        <a
+          class="text-[hsl(228,45%,44%)]"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+      </div>
+      <div>
+        Coded by<a class="text-[hsl(228,45%,44%)]" href="#">Jeremiah</a>.
+      </div>
+    </div>
+  </body>
+</html>
